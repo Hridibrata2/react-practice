@@ -9,6 +9,7 @@ function App() {
       <Greet name='Raja'Age='30' work='IT'>
         <p>this is children props</p>
         <p>this is a good thing to say</p>
+        <p>this is a going to be good</p>
       </Greet>
       <Greet name='Ravi' Age='35' work='IT'/>
  
