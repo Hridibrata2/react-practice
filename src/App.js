@@ -5,9 +5,10 @@ function App() {
   return (
     <div className="App">
       <Greet name='Shyam'Age='20' work='IT'/>
-      <Greet name= "Ram" Age='25' work='Civil'/>
+      <Greet name= "Ram" Age='25' work='Civil' designation='Engineer'/>
       <Greet name='Raja'Age='30' work='IT'>
         <p>this is children props</p>
+        <p>this is a good thing to say</p>
       </Greet>
  
     </div>
