@@ -1,0 +1,17 @@
+import './App.css';
+import Greet from './components/Greet';
+
+function App() {
+  return (
+    <div className="App">
+      <Greet name='Shyam'Age='20' work='IT'/>
+      <Greet name= "Ram" Age='25' work='Civil'/>
+      <Greet name='Raja'Age='30' work='IT'>
+        <p>this is children props</p>
+      </Greet>
+ 
+    </div>
+  );
+}
+
+export default App;
