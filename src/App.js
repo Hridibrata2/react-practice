@@ -10,6 +10,7 @@ function App() {
         <p>this is children props</p>
         <p>this is a good thing to say</p>
       </Greet>
+      <Greet name='Ravi' Age='35' work='IT'/>
  
     </div>
   );
