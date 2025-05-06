@@ -3,6 +3,7 @@ import './App.css';
 // import Messege from './components/Messege';
 // import ClickHandler from './components/ClickHandler';
 import ParentComponent from './components/ParentComponent';
+import UserGreeting from './components/UserGreeting';
 
 function App() {
   return (
@@ -19,7 +20,9 @@ function App() {
 
     {/* <ClickHandler/>  */}
 
-    <ParentComponent />
+    {/* <ParentComponent /> */}
+
+    <UserGreeting />
 
     </div>
   );
