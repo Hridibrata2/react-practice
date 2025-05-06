@@ -1,9 +1,12 @@
 import './App.css';
+import NameList from './components/NameList';
 // import Greet from './components/Greet';
 // import Messege from './components/Messege';
 // import ClickHandler from './components/ClickHandler';
-import ParentComponent from './components/ParentComponent';
-import UserGreeting from './components/UserGreeting';
+// import ParentComponent from './components/ParentComponent';
+// import UserGreeting from './components/UserGreeting';
+import StyleSheet from './components/StyleSheet';
+import Inline from './components/Inline';
 
 function App() {
   return (
@@ -22,7 +25,13 @@ function App() {
 
     {/* <ParentComponent /> */}
 
-    <UserGreeting />
+    {/* <UserGreeting /> */}
+
+    {/* <NameList /> */}
+
+    {/* <StyleSheet /> */}
+
+    {/* <Inline /> */}
 
     </div>
   );
